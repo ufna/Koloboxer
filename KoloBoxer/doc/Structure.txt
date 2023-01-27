@@ -1,0 +1,38 @@
+v.1.0.4
+
+This file describes project structure
+
+/bin		- general directory for compiled programm
+
+/src		- sources
+
+/src/core	- the kernel of reminder (databases work)
+/src/core/inc	- .h - headers
+/src/core/src	- .cpp
+
+/src/common	- shared files
+/src/common/inc - .h - headers
+/src/common/src - .cpp
+
+/src/gui	- GUI of application
+/src/gui/inc	- .h - headers
+/src/gui/src	- .cpp
+
+/src/library	- contains different .lib files from 3rd-party products, like Arthur library with Arthur style
+
+/src/resources	- resources, which compiled with app
+/src/resources/img	- images folder
+/src/resources/levels	- for pre-installed levels
+
+/src/moc	- moc'in directory
+/src/moc/debug	- debug moc'in
+/src/moc/release- release moc'in
+
+/src/utility	- for different help-classes
+/src/utility/inc- .h - headers
+/src/utility/src- .cpp
+
+/obj		- for in-compile files
+
+/doc		- documentation
+/doc/project	- for MVSC++ project

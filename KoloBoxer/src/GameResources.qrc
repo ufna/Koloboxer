@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/KAS" >
+        <file>resources/pages/img/kas.png</file>
+        <file>resources/pages/kas.html</file>
+    </qresource>
+    <qresource prefix="/icons" >
+        <file>resources/img/caution_win.png</file>
+    </qresource>
+    <qresource prefix="/items" >
+        <file>resources/img/kolobok.png</file>
+    </qresource>
+</RCC>
